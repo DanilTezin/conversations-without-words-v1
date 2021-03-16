@@ -1,0 +1,14 @@
+.wrap {
+    background-color: rgb(180, 235, 247);
+    height: 50px;
+    padding: 0;
+    margin: 0;
+    display: grid;
+}
+
+.logo {
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    justify-content: center;
+    text-align: center;
+}

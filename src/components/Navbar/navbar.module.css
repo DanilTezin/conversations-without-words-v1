@@ -1,0 +1,10 @@
+.wrap {
+    background-color: rgb(193, 222, 238);
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav {
+    text-decoration: none;
+    color: aliceblue;
+}
