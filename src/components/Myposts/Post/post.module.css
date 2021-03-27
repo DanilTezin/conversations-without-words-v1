@@ -1,0 +1,28 @@
+.image {
+    width: 400px;
+    height: 300px;
+}
+
+.wrap {
+    width: 450px;
+    height: 350px;
+    background-color: rgb(228, 251, 255);
+}
+
+.info {
+    display: flex;
+    margin-bottom: 5px;
+}
+
+.time {
+    margin-left: 10px;
+    color: rgb(199, 199, 199);
+    border-bottom: rgb(199, 199, 199) 1px solid;
+}
+
+.post {
+    margin: 50px;
+    margin-left: 25%;
+}
+
+.like {}

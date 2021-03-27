@@ -1,0 +1,57 @@
+.wrap {
+    display: grid;
+    grid-template-areas: "ava name name" "ava info info";
+    grid-template-columns: 1fr 2fr 30fr;
+    grid-template-rows: 30px;
+}
+
+.avatar {
+    width: 135px;
+    height: 135px;
+    border-radius: 5px;
+    margin: 1em;
+    grid-area: ava;
+}
+
+.wrapname {
+    grid-area: name;
+    margin: 1em;
+    display: flex;
+    justify-content: space-around;
+    width: 100px;
+    font-size: 20px;
+}
+
+.wrapinfo {
+    grid-area: info;
+    margin: 1.4em;
+}
+
+.status {
+    color: rgb(130, 130, 130);
+}
+
+.family {
+    color: rgb(153, 153, 153);
+}
+
+.find {
+    border: 5px dashed rgb(170, 221, 145);
+    width: 85px;
+    height: 45px;
+    background-color: rgb(194, 240, 171);
+}
+
+.findwork {
+    text-align: center;
+    font-size: 20px;
+    color: rgb(155, 223, 122);
+}
+
+.firstname {
+    grid-area: name;
+}
+
+.lastName {
+    grid-area: name;
+}

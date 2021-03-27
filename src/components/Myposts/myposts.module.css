@@ -1,0 +1,15 @@
+.textInput {
+    margin-left: 25%;
+    display: grid;
+    grid-template-columns: 100px;
+}
+
+.add {
+    margin-top: 10px;
+}
+
+.area {
+    width: 450px;
+    height: 200px;
+    resize: none;
+}
