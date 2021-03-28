@@ -1,7 +1,7 @@
 .wrap {
     background-color: #8BC6EC;
     background-image: linear-gradient(135deg, #bbbbbb 0%, #c4c4c4e5 100%);
-    background-image: linear-gradient(135deg, #91d1fc 0%, #d9dbff 100%);
+    background-image: linear-gradient(135deg, #14edd7 0%, #a1bfff 100%);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     display: flex;
     justify-content: space-around;

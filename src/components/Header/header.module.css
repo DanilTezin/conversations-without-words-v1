@@ -1,9 +1,9 @@
 .wrap {
-    background: #8e9eab;
+    background: #96aabb;
     /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #eef2f3, #7eb8e8);
+    background: -webkit-linear-gradient(to right, #64d2ee, #7eb8e8);
     /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #a5e6e0, #b7deff);
+    background: linear-gradient(to right, #85def2, #b7fdff);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     height: 50px;
     padding: 0;

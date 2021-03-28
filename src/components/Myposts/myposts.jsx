@@ -4,7 +4,7 @@ import style from './myposts.module.css'
 
 const Myposts = (props) =>{
     return(
-    <div>
+    <div className={style.Myposts}>
         <div className={style.textInput}>
             <div className={style.text}>New Post</div>
             <textarea className={style.area} placeholder="text..." name="" id="" cols="30" rows="5"></textarea>

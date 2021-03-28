@@ -3,12 +3,15 @@
     grid-template-areas: "ava name name" "ava info info";
     grid-template-columns: 1fr 2fr 30fr;
     grid-template-rows: 30px;
+    background-color: rgb(219, 251, 255);
+    border-bottom: 3px solid rgb(248, 248, 248);
 }
 
 .avatar {
     width: 135px;
     height: 135px;
-    border-radius: 5px;
+    border-radius: 100%;
+    border: 4px rgb(225, 225, 225) solid;
     margin: 1em;
     grid-area: ava;
 }
