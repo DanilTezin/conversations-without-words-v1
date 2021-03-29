@@ -2,7 +2,7 @@ import react from 'react'
 import style from './profile.module.css'
 import ava from "../../images/6392229375de53fb4bff04e9e3e6f324.png"
 import Myposts from '../Myposts/myposts'
-const Profile = () =>{
+const Profile = (props) =>{
     return(
         <div>
             <div className={style.wrap}>
@@ -20,7 +20,7 @@ const Profile = () =>{
                     </div>
                 </div>
             </div>
-            <Myposts/>
+            <Myposts post={props.post}/>
         </div>
     )
 }

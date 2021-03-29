@@ -1,11 +1,11 @@
 .image {
     width: 400px;
     height: 300px;
+    cursor: pointer;
 }
 
-.wrap {
-    width: 450px;
-    height: 350px;
+.name {
+    color: rgb(177, 177, 177);
 }
 
 .info {
@@ -15,11 +15,22 @@
 
 .time {
     margin-left: 10px;
-    color: rgb(199, 199, 199);
-    border-bottom: rgb(199, 199, 199) 1px solid;
+    color: rgb(136, 136, 136);
+}
+
+.heart {
+    width: 35px;
+    padding: 0;
+    color: red;
+    background-color: red;
+    cursor: pointer;
+}
+
+.like {
+    color: rgb(175, 175, 175);
 }
 
 .post {
-    margin: 50px;
     margin-left: 25%;
+    padding-bottom: 50px;
 }

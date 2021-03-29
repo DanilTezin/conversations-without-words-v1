@@ -3,6 +3,9 @@ import Post from './Post/post'
 import style from './myposts.module.css'
 
 const Myposts = (props) =>{
+
+    let postElements = props.post.map( post => <Post name={post.name} time={post.time}/>)
+
     return(
     <div className={style.Myposts}>
         <div className={style.textInput}>
@@ -10,11 +13,8 @@ const Myposts = (props) =>{
             <textarea className={style.area} placeholder="text..." name="" id="" cols="30" rows="5"></textarea>
             <button className={style.add} type="submit">Add post</button>
         </div>
-
-    <Post name='Test post' time='9:30'/>
-    <Post name='Good job man'/>
-    <Post name='My salary is 300kk nanosek'/>
-    
+        
+        {postElements}
     </div>
     )
 }

@@ -3,15 +3,14 @@
     grid-template-areas: "ava name name" "ava info info";
     grid-template-columns: 1fr 2fr 30fr;
     grid-template-rows: 30px;
-    background-color: rgb(219, 251, 255);
-    border-bottom: 3px solid rgb(248, 248, 248);
+    background-color: rgb(47, 55, 54);
 }
 
 .avatar {
     width: 135px;
     height: 135px;
     border-radius: 100%;
-    border: 4px rgb(225, 225, 225) solid;
+    border: 4px rgb(63, 64, 67) solid;
     margin: 1em;
     grid-area: ava;
 }
@@ -43,6 +42,7 @@
     width: 85px;
     height: 45px;
     background-color: rgb(194, 240, 171);
+    border-radius: 5px;
 }
 
 .findwork {
@@ -51,10 +51,12 @@
     color: rgb(155, 223, 122);
 }
 
-.firstname {
+.firstName {
     grid-area: name;
+    color: white;
 }
 
 .lastName {
     grid-area: name;
+    color: white;
 }
