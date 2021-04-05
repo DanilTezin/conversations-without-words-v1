@@ -1,10 +1,15 @@
+.wrap {
+    background-color: rgb(47, 55, 54);
+    height: 570px;
+    padding-bottom: 10px;
+    padding-top: 20px;
+}
+
 .textInput {
+    margin-left: 25%;
     display: grid;
-    grid-template-columns: 100px;
-    display: flex;
-    flex-direction: column;
-    padding-bottom: 50px;
-    align-items: center;
+    grid-template-columns: 200px;
+    padding-top: 20px;
 }
 
 .add {
@@ -16,8 +21,6 @@
 
 .Myposts {
     background-color: rgb(53, 58, 57);
-    display: flex;
-    flex-direction: column;
 }
 
 .text {
@@ -31,5 +34,4 @@
     background-color: rgb(34, 40, 44);
     color: white;
     border: 0;
-    align-items: center;
 }
