@@ -1,0 +1,10 @@
+.name {
+    background-color: rgb(69, 74, 79);
+    color: rgb(177, 177, 177);
+    padding-bottom: 2em;
+}
+
+.wrap {
+    height: 100%;
+    background-color: rgb(69, 74, 79);
+}

@@ -2,6 +2,7 @@ import react from 'react'
 import style from './profile.module.css'
 import ava from "../../images/6392229375de53fb4bff04e9e3e6f324.png"
 import Myposts from '../Myposts/myposts'
+
 const Profile = (props) =>{
     return(
         <div>
@@ -20,7 +21,11 @@ const Profile = (props) =>{
                     </div>
                 </div>
             </div>
-            <Myposts addPost={props.addPost} post={props.post}/>
+
+
+            <Myposts  post={props.profilePage.post}
+                      addPost={props.addPost}
+                      updateNewPostText={props.updateNewPostText}  />
         </div>
     )
 }

@@ -1,0 +1,11 @@
+.wrap {
+    color: rgb(167, 167, 167);
+    background-color: rgb(73, 82, 79);
+    margin-bottom: 1px;
+    width: 500px;
+    height: 25px;
+    margin-left: 25%;
+    /* Отменяем перенос текста */
+    word-break: break-all;
+    /* Поля */
+}

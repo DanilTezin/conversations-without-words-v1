@@ -1,7 +1,12 @@
+import style from './Message.module.css'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 const Message = (props) =>{
+    AOS.init()
+
     return(
-        <div>
-            {props.name} <br/> {props.text}
+        <div data-aos='zoom-in' className={style.wrap}>
+            {props.name} {props.text}
         </div>
     )
 }

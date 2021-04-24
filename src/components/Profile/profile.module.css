@@ -27,6 +27,8 @@
 .wrapinfo {
     grid-area: info;
     margin: 1.4em;
+    background-color: rgb(55, 55, 55);
+    width: 95px;
 }
 
 .status {
@@ -43,6 +45,7 @@
     height: 45px;
     background-color: rgb(194, 240, 171);
     border-radius: 5px;
+    margin-top: 10px;
 }
 
 .findwork {

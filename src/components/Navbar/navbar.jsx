@@ -7,7 +7,7 @@ const Navbar = () =>{
         <div className={style.wrap}>
             <NavLink className={style.nav} activeClassName={style.active} to="/messages">Message</NavLink>
             <NavLink className={style.nav} activeClassName={style.active}  to="/profile">Profile</NavLink>
-            <a className={style.nav} href="">Friends</a>
+            <NavLink className={style.nav} activeClassName={style.active}  to="/friends">Friends</NavLink>
             <a className={style.nav} href="">Find-Users</a>
             <a className={style.nav} href="">Settings</a>
         </div>

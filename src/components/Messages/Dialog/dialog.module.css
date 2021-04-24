@@ -5,6 +5,15 @@
     padding-top: 20px;
 }
 
+.txt {
+    color: white;
+}
+
+.scrolling {
+    height: 200px;
+    overflow: auto;
+}
+
 .textInput {
     margin-left: 25%;
     display: grid;
@@ -17,10 +26,6 @@
     background-color: rgb(68, 68, 68);
     border: 0;
     color: rgb(138, 138, 138);
-}
-
-.Myposts {
-    background-color: rgb(53, 58, 57);
 }
 
 .text {
