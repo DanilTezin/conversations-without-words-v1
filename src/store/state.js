@@ -14,7 +14,7 @@ let store = {
                 { id: 4, name: "ЛУЧШАЯ", time: "20:15" }
             ],
 
-            newPostText: 'я рот этого реакта ебал'
+            newPostText: ''
         },
 
         friendsPage: {
@@ -50,27 +50,28 @@ let store = {
         console.log('good')
     },
 
-    addPost(postMessage) {
-        let newState = {...this._state }
-        let newPost = {
-            id: 123123,
-            name: postMessage,
-            time: "20:00"
-        }
-        newState.profilePage.post.push(newPost)
-        this._callSubscriber(newState)
-        return newState
+    dispatch(action) {
+        switch (action.type) {
 
+            case 'ADD-POST':
+
+                let newPost = { id: 123123, name: action.postMessage, time: "20:00" }
+                this._state.profilePage.post.push(newPost)
+                this._state.profilePage.newPostText = ''
+                this._callSubscriber(this._state)
+                break;
+
+            case 'UPDATE-NEW-POST-TEXT':
+                this._state.profilePage.newPostText = action.text
+                this._callSubscriber(this._state)
+            default:
+                break;
+        }
     },
 
     addMessage(message) {
         let newState = {...this._state }
-        let newMessage = {
-            id: 123123,
-            text: message,
-            name: "IFYM",
-            time: "20:00"
-        }
+        let newMessage = { id: 123123, text: message, name: "IFYM", time: "20:00" }
         newState.messagePage.message.push(newMessage)
         this._callSubscriber(newState)
         return newState

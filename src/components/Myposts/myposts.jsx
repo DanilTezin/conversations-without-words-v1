@@ -9,7 +9,11 @@ const Myposts = (props) =>{
     let postText = React.createRef()
     
     let onPostChange = () =>{
-        props.updateNewPostText(postText)
+        props.dispatch({type:'UPDATE-NEW-POST-TEXT', text: postText.current.value})
+    }
+
+    let addPost = () =>{
+        props.dispatch({type:'ADD-POST', postMessage:postText.current.value} )
     }
     
 
@@ -18,7 +22,7 @@ const Myposts = (props) =>{
         <div className={style.textInput}>
             <div className={style.text}>New Post</div>
             <textarea onChange={onPostChange} ref={postText} value={props.newPostText} className={style.area} placeholder="text..." name="" id="" cols="30" rows="5"></textarea>
-            <button className={style.add} onClick={() =>{props.addPost(postText.current.value, postText.current.value = '')}} type="submit">Add post</button>
+            <button className={style.add} onClick={addPost} type="submit">Add post</button>
         </div>
         
         {postElements}
